@@ -1,7 +1,53 @@
-<food>
-      <Thaifood>
-         <foodID>001</foodID>
-         <foodNAME>ข้าวผัดปู</foodNAME>
-         <price>50 บาท </price>  
-      </Thaifood>
-</food>
+<Food>
+    <ThaiFood>
+        <FoodID>001</FoodID>
+        <FoodName>ข้าวผัดกุ้ง</FoodName>
+        <price>60บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>002</FoodID>
+        <FoodName>ทะเลหม้อไฟ</FoodName>
+        <price>70บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>003</FoodID>
+        <FoodName>ไก่อบ</FoodName>
+        <price>80บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>004</FoodID>
+        <FoodName>ไก่ทอด</FoodName>
+        <price>40บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>005</FoodID>
+        <FoodName>ข้าวไก่กระเทียม</FoodName>
+        <price>50บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>006</FoodID>
+        <FoodName>ก๋วยเตี๋ยวโบราณ</FoodName>
+        <price>60บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>007</FoodID>
+        <FoodName>ต้มยำกุ้ง</FoodName>
+        <price>100บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>008</FoodID>
+        <FoodName>เสื้อร้องให้</FoodName>
+        <price>40บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>009</FoodID>
+        <FoodName>ตำไทยไข่เค็ม</FoodName>
+        <price>50บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>010</FoodID>
+        <FoodName>ข้าวไข่เจียว</FoodName>
+        <price>50บาท</price>
+    </ThaiFood>
+</Food>
+
