@@ -16,13 +16,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="container" id="display"></div>
       <script>
-        let xttp = new  XMLHttpRequest();
+        let xhttp = new  XMLHttpRequest();
         xhttp.open("GET","http://localhost:3000/book");
-        xttp.send();
-        xttp.onload = function(){
-          console.log(this.responseText);
-          document.getElementById('display').innerHTML = this.responseText;
+        xhttp.send();
+        xhttp.onload = function(){
+         // console.log(this.responseText);
+          //document.getElementById('display').innerHTML = this.response;
+          let obj = JSON.parse(this.responseText);
+          console.log(obj);
+          let i = 0;
+          let temp = '';
+          for (i =0;i<obj.length;i++){
+            console.log(obj[i]);
+            temp +='<tr><td>'+obj[i].title+'<br>'+obj[i].description+'</td>'+
+              '</td><img src = "./img/'+obj[i].picture+'">'
+              +'</tr>'
+          }
+          document.getElementById('display').innerHTML='<table>'+temp+'</table>';
         }
       </script>
   </body>
